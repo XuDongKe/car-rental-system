@@ -1,0 +1,78 @@
+html,
+body {
+    height: 100%;
+    overflow: hidden;
+}
+html,
+body,
+div,
+img,
+form,
+input,
+label,
+span,
+ul,
+li,
+h3 {
+    margin: 0;
+    padding: 0;
+}
+.clear::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+body {
+    background-image: url(./Carpicture.jfif);
+    background-size:cover;
+}
+.login-container {
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -200px;
+    margin-top: -200px;
+}
+.logo-wrapper {
+    width: 400px;
+    margin-bottom: 35px;
+}
+.logo-wrapper>img {
+    width: 100%;
+}
+.login-form>input {
+    width: 335px;
+    height: 20px;
+    padding: 10px;
+    outline: none;
+    display: block;
+    margin: 0 auto 30px;
+}
+.btns {
+    width: 350px;
+    margin: 0 auto;
+}
+.login-btn,
+.switch-register-btn {
+    float: left;
+    width: 100px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    margin-left: 45px;
+    cursor: pointer;
+    color: #fff;
+    border-radius: 4px;
+}
+
+.btns>.login-btn {
+    background-color: #409aff;
+    outline: none;
+    border: none;
+}
+
+.btns>.switch-register-btn {
+    background-color: #67c23a;
+}

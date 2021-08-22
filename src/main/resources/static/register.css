@@ -1,0 +1,141 @@
+html,
+body {
+    height: 100%;
+    overflow: hidden;
+}
+html,
+body,
+div,
+img,
+form,
+input,
+label,
+span,
+ul,
+li,
+h3 {
+    margin: 0;
+    padding: 0;
+}
+.clear::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+.user-register{
+    background-image: url(./Carpicture.jfif);
+    background-size: cover;
+    height: 100%;
+    overflow: hidden;
+}
+.logo-contaier{
+    position: absolute;
+    left: 70px;
+    top: 50px;
+}
+.logo-contaier>img{
+    width:320px;
+}
+.text-container{
+    position: absolute;
+    top: 100px;
+    left: 104px;
+    color:black;
+    font-size: 34px;
+}
+.ft_60{
+    font-size: 60px;
+}
+.form-container{
+    position: absolute;
+    right: 140px;
+    width: 539px;
+    height: 680px;
+    background-color: rgba(255, 255, 255, .9);
+    top: 50%;
+    margin-top: -340px;
+    border-radius: 12px;
+}
+/* 登录区域上方文字 */
+.form-title-container {
+    margin-top: 56px;
+    margin-left: 35px;
+}
+.form-title-container>h3 {
+    font-size: 40px;
+}
+.form-title-container a {
+    color: #2e58fe;
+    margin-left: -6px;
+}
+.form-body {
+    margin-top: 70px;
+}
+label{
+    height: 40px;
+    line-height: 40px;
+    text-align: left;
+    width: 80px;
+    margin-right: 85px;
+    margin-left: 8px;
+    float: left; 
+    white-space: nowrap;
+    font-size: 17px;
+    font-weight: bold;
+}
+.form-body .form-item input{
+    height: 38px;
+    width: 326px;
+    outline: none;
+    text-indent: 20px;
+    border: 1px solid #ddd;
+    float: left;
+    border-radius: 4px;
+}
+.form-body .form-item input:focus {
+    border-color: #409eff;
+}
+.form-body>.form-item {
+    margin-bottom: 40px;
+    position: relative;
+}
+.register-btn {
+    width: 397px;
+    height: 48px;
+    display: block;
+    border-radius: 24px;
+    margin: 0 auto;
+    outline: none;
+    border: none;
+    color: #fff;
+    background: #3f89ec;
+    font-size: 16px;
+    text-align: center;
+    cursor: pointer;
+}
+.prompt-txt {
+    width: 317px;
+    height: 39px;
+    line-height: 30px;
+    position: absolute;
+    top: -46px;
+    left: 97px;
+    text-align: center;
+    color: #fff;
+    font-size: 12px;
+    background-size: cover;
+    display:none;
+    background-image: url(../static/img/check-username-bg.png);
+}
+.error-inp {
+    border-color: #f55!important;
+}
+
+.err-message {
+    font-size: 12px;
+    color: #f55;
+    position: absolute;
+    left: 97px;
+    top: 43px;
+    display: none;
+}
